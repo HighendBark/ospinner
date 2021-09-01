@@ -8,7 +8,7 @@ export const MainView = (props: MainViewTypes.Props) => {
   const viewModel = useMainViewModel(props);
 
   return (
-    <main className="inline-flex flex-col w-full">
+    <main className="inline-flex flex-col w-full h-full">
       <HashRouter>
         <Switch>
           <Route path="(/|/home)">Test</Route>
